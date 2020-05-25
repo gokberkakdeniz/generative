@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap');
+
+:root {
+    --accent: #89CBCF;
+    --accent2: #4E6D72;
+}
+
+* {
+    color: var(--accent);
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+body {
+    background-color: #1b1b1b;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+select {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -webkit-padding-end: 20px;
+    -moz-padding-end: 20px;
+    -webkit-padding-start: 2px;
+    -moz-padding-start: 2px;
+    background-color: #333333;
+    border: none;
+    border-right: 5px solid var(--accent2);
+    border-radius: 0;
+    color: var(--accent);
+    font-size: inherit;
+    overflow: hidden;
+    height: 24px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0;
+    width: 75px;
+    margin: 5px;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+    background-color: #333333;
+    border: none;
+    border-right: 5px solid var(--accent2);
+    border-radius: 0;
+    color: var(--accent);
+    font-size: inherit;
+    overflow: hidden;
+    height: 24px;
+    padding: 0;
+    margin: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 75px;
+    text-align: center;
+}
+
+button {
+    background-color: #333333;
+    border: none;
+    border-radius: 0;
+    color: var(--accent);
+    font-size: inherit;
+    overflow: hidden;
+    height: 24px;
+    padding: 0;
+    margin: 5px 0;
+    width: 255px;
+    text-align: center;
+    border-right: 5px solid var(--accent2);
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+}
+
+header {
+    margin: 15px;
+}
+
+#sketch-holder {
+    padding: 25px ;
+}
+
+.coded {
+    color: wheat;
+}
+
+.love {
+    color: #ff1493
+}
+
+.title {
+    background-color: var(--accent);
+    color: black;
+    font-size: x-large;
+    font-weight: 900;
+    padding: 5px;
+}

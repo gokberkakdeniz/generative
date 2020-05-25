@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noise Gradient</title>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
+  <script src="sketch.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <span class="title">
+      Noise Gradient
+    </span>
+    
+
+  </header>
+
+  <section>
+    <p>
+      Please select dominant color and its range.
+    </p>
+    
+    <select name="dominant_color" id="dominant_color">
+      <option value="r">Red</option>
+      <option value="g">Green</option>
+      <option value="b">Blue</option>
+    </select><!--
+      --><input type="number" name="range_start" id="range_start" min="0" max="255" value="175"><!--
+      --><input type="number" name="range_end" id="range_end" min="0" max="255" value="200">
+    <br />
+    <button onclick="redraw();">Render</button>
+    <br />
+    <div id="sketch-holder"></div>
+  </section>
+  <footer>
+    <p>
+      Date: 25.05.2020
+    </p>
+    <p>
+      <span class="coded">
+        &lt;&Backslash;&gt;
+      </span> with <span class="love">&lt;3</span> by Gökberk AKDENİZ.
+    </p>
+    <P>
+      <a href="https://github.com/tncga/generative/tree/master/noise-gradient">Source code</a> is published under MIT license.
+    </P>
+  </footer>
+</body>
+
+</html>
