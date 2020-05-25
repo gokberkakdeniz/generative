@@ -103,3 +103,27 @@ header {
     font-weight: 900;
     padding: 5px;
 }
+
+.main-page {
+    padding: 25px;
+    color: #f5f5f5;
+}
+
+.main-page a {
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+.main-page ul {
+    padding: 0;
+}
+
+.main-page ul li {
+    list-style: none;
+}
+
+.main-page ul li span {
+    background-color: #303030;
+    padding: 2px 5px;
+    color: #f5f5f5;
+}
